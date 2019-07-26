@@ -1,8 +1,8 @@
 class Trubka < Formula
-  desc "This is an example Kafka CLI tool written in Go"
+  desc "Generic protobuf message Kafka consumer"
   homepage "https://github.com/xitonix/trubka"
-  url "https://github.com/xitonix/trubka/releases/download/v0.0.4/trubka-v0.0.4.tar.gz"
-  sha256 "2458b0b15b178afef0426171c3c0427805147e110d74e678be07ef3b8039c6d1"
+  url "https://github.com/xitonix/trubka/releases/download/v0.0.4/trubka_darwin-v0.0.4.tar.gz"
+  sha256 "6c7f1514fca4a7017f074a0140fb10ec6a1905238074d89d45fc7deaedba8cad"
 
   def install
     bin.install "trubka"
