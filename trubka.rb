@@ -1,8 +1,8 @@
 class Trubka < Formula
   desc "Generic protobuf message Kafka consumer"
   homepage "https://github.com/xitonix/trubka"
-  url "https://github.com/xitonix/trubka/releases/download/v2.0.0/trubka_darwin-v2.0.0.tar.gz"
-  sha256 "11302701fbf58214b8a55e40f43e2dbacc8c5e381a1a91e086b9334225e69379"
+  url "https://github.com/xitonix/trubka/releases/download/v2.0.1/trubka_darwin-v2.0.1.tar.gz"
+  sha256 "2bcff88d282edd56253c7a7cf646ccc1dbbb351812a91d4044bca2c24009cd41"
 
   def install
     bin.install "trubka"
